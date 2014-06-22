@@ -54,12 +54,26 @@
 		{
 			font-size: 36px;
 			border-bottom: 1px solid @border-color;
-			margin-bottom: 20px;
-			padding-bottom: 17px;
+			margin-bottom: 17px;
+			padding-bottom: 14px;
 		}
 		.email
 		{
-			font-size: 24px;
+			font-size: 21px;
+			border: 2px solid #4da169;
+			padding-left: 20px;
+			padding-right: 20px;
+			padding-top: 10px;
+			padding-bottom: 10px;
+			.setBorderRadius(30px);
+			a
+			{
+				color: #5fc782;
+			}
+			&:hover
+			{
+				cursor: pointer;
+			}
 		}
 	}
 	.latest-container
@@ -100,7 +114,7 @@
 	}
 	.social-container
 	{
-		margin-left: 37px;
+		margin-left: 38px;
 		.column
 		{
 			a
@@ -109,17 +123,28 @@
 				{
 					.fa
 					{
-						background-color: black;
 						color: white;
+						border: none;
 						.setAnimation();
 					}
-
+					.fa-facebook
+					{
+						background-color: #3c599f;
+					}
+					.fa-twitter
+					{
+						background-color: #28a9e0;
+					}
+					.fa-github-alt
+					{
+						background-color: black;
+					}
 				}
 				.fa
 				{
 					border: 1px solid black;
-					padding: 20px;
-					width: 80px;
+					padding: 15px;
+					width: 70px;
 					text-align: center;
 					.setBorderRadius(100%);
 					color: black;
