@@ -99,3 +99,21 @@ header .card .social li a:hover {
   vertical-align: middle;
   text-align: center;
 }
+.bg_blog {
+  width: 100%;
+  height: 100%;
+  background-image: url('../assets/img/double_lined.png');
+}
+.entry {
+  font-family: 'Raleway', sans-serif;
+}
+.entry .entry_title {
+  font-weight: 300;
+}
+.entry .preview {
+  font-size: 21px;
+  font-weight: 400;
+}
+.entry .check_medium {
+  font-size: 18px;
+}
