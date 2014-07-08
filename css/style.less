@@ -3,6 +3,13 @@
 body, html
 {
 	height: 100%;
+	overflow: auto;
+	overflow-x: hidden;
+}
+a
+{
+	text-decoration: none;
+	border: none;
 }
 header
 {
@@ -17,10 +24,19 @@ header
 		display: table-cell;
 		text-align: center;
 		vertical-align: middle;
+		
+		.me
+		{
+			border-radius: 100%;
+		}
 
 		.name, .skills, .social
 		{
 			font-family: 'Raleway', sans-serif;
+		}
+		.skills
+		{
+			font-size: 21px;
 		}
 		.social
 		{
@@ -49,7 +65,7 @@ header
 {
 	display: table;
 	width: 100%;
-	height: 40%;
+	height: 50%;
 	background-image: url('../assets/img/geometry.png');
 	color: black;
 
@@ -65,12 +81,11 @@ header
 		}
 		.heading
 		{
-			font-weight: 300;
+			font-weight: 400;
 			font-size: 34px;
 		}
 		.content
 		{
-			width: 30%;
 			display: block;
 			margin: 0 auto;
 			font-size: 18px;
@@ -85,77 +100,78 @@ header
 	}
 }
 
+.portfolio
+{
+	display: table;
+	width: 100%;
+	height: 60%;
+	background-image: url('../assets/img/geometry.png');
+	.card
+	{
+		font-family: 'Raleway', sans-serif;
+		display: table-cell;
+		vertical-align: middle;
+		text-align: center;
+		color: black;
+
+		figure
+		{
+			img
+			{
+				width: 100%;
+			}
+			figcaption
+			{
+				color: black;
+				font-size: 18px;
+			}
+		}
+
+		>.row:last-child
+		{
+			margin-top: 100px;
+			margin-bottom: 130px;
+		}
+
+		.current_project_link
+		{
+			color: black;
+			text-decoration: underline;
+
+			&:hover
+			{
+				text-decoration: none;
+			}
+		}
+	}
+}
 
 .writing
 {
 	display: table;
 	width: 100%;
 	height: 40%;
-	background-image: url('../assets/img/food.png');
+	background-image: url('../blog/hackathon_drug.jpg');
+	background-size: cover;
 	.card
 	{
+		background: rgba(0, 0, 0, 0.75);
 		display: table-cell;
 		vertical-align: middle;
 		text-align: center;
-		
-		a
-		{
-			&:hover
-			{
-				text-decoration: none;
-			}
-		}
-		.heading
+		font-family: 'Raleway', sans-serif;
+		.latest_entry
 		{
 			display: inline;
-			color: black;
-			border-bottom: 1px solid black;
-
-			&:hover
-			{
-				border: none;
-			}
+			color: white;
+			font-weight: 400;
+			font-size: 24px;
+			border-top: 1px solid white;
 		}
-	}
-}
-
-.footer
-{
-	display: table;
-	width: 100%;
-	height: 40%;
-	// background-image: url('../assets/img/food.png');
-	color: black;
-
-	.card
-	{
-		display: table-cell;
-		vertical-align: middle;
-		text-align: center;
-	}
-}
-
-.bg_blog
-{
-	width: 100%;
-	height: 100%;
-	background-image: url('../assets/img/double_lined.png');
-}
-
-.entry
-{
-	font-family: 'Raleway', sans-serif;
-	.entry_title
-	{
-		font-weight: 300;
-	}
-	.preview
-	{
-		font-size: 21px;
-		font-weight: 400;
-	}
-	.check_medium
-	{
-		font-size: 18px;
+		.entry_title
+		{
+			color: white;
+			font-weight: 600;
+		}
 	}
 }

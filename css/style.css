@@ -2,6 +2,12 @@
 body,
 html {
   height: 100%;
+  overflow: auto;
+  overflow-x: hidden;
+}
+a {
+  text-decoration: none;
+  border: none;
 }
 header {
   display: table;
@@ -15,10 +21,16 @@ header .card {
   text-align: center;
   vertical-align: middle;
 }
+header .card .me {
+  border-radius: 100%;
+}
 header .card .name,
 header .card .skills,
 header .card .social {
   font-family: 'Raleway', sans-serif;
+}
+header .card .skills {
+  font-size: 21px;
 }
 header .card .social {
   margin-right: 40px;
@@ -38,7 +50,7 @@ header .card .social li a:hover {
 .aboutme {
   display: table;
   width: 100%;
-  height: 40%;
+  height: 50%;
   background-image: url('../assets/img/geometry.png');
   color: black;
 }
@@ -52,11 +64,10 @@ header .card .social li a:hover {
   font-family: 'Raleway', sans-serif;
 }
 .aboutme .card .heading {
-  font-weight: 300;
+  font-weight: 400;
   font-size: 34px;
 }
 .aboutme .card .content {
-  width: 30%;
   display: block;
   margin: 0 auto;
   font-size: 18px;
@@ -66,54 +77,59 @@ header .card .social li a:hover {
 .aboutme .card .content strong {
   font-weight: 600;
 }
+.portfolio {
+  display: table;
+  width: 100%;
+  height: 60%;
+  background-image: url('../assets/img/geometry.png');
+}
+.portfolio .card {
+  font-family: 'Raleway', sans-serif;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  color: black;
+}
+.portfolio .card figure img {
+  width: 100%;
+}
+.portfolio .card figure figcaption {
+  color: black;
+  font-size: 18px;
+}
+.portfolio .card > .row:last-child {
+  margin-top: 100px;
+  margin-bottom: 130px;
+}
+.portfolio .card .current_project_link {
+  color: black;
+  text-decoration: underline;
+}
+.portfolio .card .current_project_link:hover {
+  text-decoration: none;
+}
 .writing {
   display: table;
   width: 100%;
   height: 40%;
-  background-image: url('../assets/img/food.png');
+  background-image: url('../blog/hackathon_drug.jpg');
+  background-size: cover;
 }
 .writing .card {
+  background: rgba(0, 0, 0, 0.75);
   display: table-cell;
   vertical-align: middle;
   text-align: center;
-}
-.writing .card a:hover {
-  text-decoration: none;
-}
-.writing .card .heading {
-  display: inline;
-  color: black;
-  border-bottom: 1px solid black;
-}
-.writing .card .heading:hover {
-  border: none;
-}
-.footer {
-  display: table;
-  width: 100%;
-  height: 40%;
-  color: black;
-}
-.footer .card {
-  display: table-cell;
-  vertical-align: middle;
-  text-align: center;
-}
-.bg_blog {
-  width: 100%;
-  height: 100%;
-  background-image: url('../assets/img/double_lined.png');
-}
-.entry {
   font-family: 'Raleway', sans-serif;
 }
-.entry .entry_title {
-  font-weight: 300;
-}
-.entry .preview {
-  font-size: 21px;
+.writing .card .latest_entry {
+  display: inline;
+  color: white;
   font-weight: 400;
+  font-size: 24px;
+  border-top: 1px solid white;
 }
-.entry .check_medium {
-  font-size: 18px;
+.writing .card .entry_title {
+  color: white;
+  font-weight: 600;
 }
