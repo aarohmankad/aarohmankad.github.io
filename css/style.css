@@ -1107,6 +1107,7 @@ html {
 a {
   text-decoration: none;
   border: none;
+  color: #03a9f4;
 }
 a:hover {
   text-decoration: none;
@@ -1116,7 +1117,7 @@ header {
   display: table;
   width: 100%;
   height: 100%;
-  background: #263238;
+  background: #455a64;
   color: white;
 }
 header #particles-js {
@@ -1141,27 +1142,31 @@ header .card .social {
   font-family: 'Raleway', sans-serif;
 }
 header .card .skills {
+  color: #eceff1;
   font-weight: normal;
   font-size: 21px;
 }
 header .card .social {
   margin-right: 40px;
+  font-family: 'Pontano Sans', sans-serif;
 }
 header .card .social li {
   display: inline;
 }
 header .card .social li a {
   font-size: 18px;
-  color: white;
+  color: #00b0ff;
   text-align: center;
   margin: 15px;
+  position: relative;
+  z-index: 2;
 }
 .aboutme {
   display: table;
   width: 100%;
   height: 50%;
-  background-image: url('../assets/img/geometry.png');
-  color: black;
+  background: #455a64;
+  color: #eceff1;
 }
 .aboutme .card {
   display: table-cell;
@@ -1186,20 +1191,20 @@ header .card .social li a {
   display: table;
   width: 100%;
   height: 60%;
-  background-image: url('../assets/img/geometry.png');
+  background: #455a64;
 }
 .portfolio .card {
   font-family: 'Raleway', sans-serif;
   display: table-cell;
   vertical-align: middle;
   text-align: center;
-  color: black;
+  color: #eceff1;
 }
 .portfolio .card figure img {
   width: 100%;
 }
 .portfolio .card figure figcaption {
-  color: black;
+  color: #eceff1;
   font-size: 18px;
   padding: 15px;
 }
@@ -1208,7 +1213,7 @@ header .card .social li a {
   margin-bottom: 130px;
 }
 .portfolio .card .current_project_link {
-  color: black;
+  color: #eceff1;
   text-decoration: underline;
 }
 .portfolio .card .current_project_link:hover {
@@ -1230,12 +1235,12 @@ header .card .social li a {
 }
 .writing .card .latest_entry {
   display: inline;
-  color: white;
+  color: #eceff1;
   font-weight: 400;
   font-size: 24px;
   border-top: 1px solid white;
 }
 .writing .card .entry_title {
-  color: white;
+  color: #eceff1;
   font-weight: 600;
 }
