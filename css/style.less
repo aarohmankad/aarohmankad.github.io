@@ -21,6 +21,30 @@ body, html
 	height: 100%;
 }
 
+/*** Works on common browsers ***/
+::selection {
+    background-color: @light_blue500;
+}
+
+/*** Mozilla based browsers ***/
+::-moz-selection {
+    background-color: @light_blue500;
+}
+
+/***For Other Browsers ***/
+::-o-selection {
+    background-color: @light_blue500;
+}
+
+::-ms-selection {
+    background-color: @light_blue500;
+}
+
+/*** For Webkit ***/
+::-webkit-selection {
+    background-color: @light_blue500;
+}
+
 .aboutme, .portfolio
 {
 	padding: 15px;
