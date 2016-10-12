@@ -27,10 +27,6 @@
         a:hover {
           border-bottom: 1px solid blue;
         }
-
-        .underline {
-            text-decoration: underline;
-        }
     </style>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
@@ -39,7 +35,7 @@
 
     <img src="img/me.jpg" alt="A cool photo of Aaroh" class="image-me">
 
-    <p><span class="underline">Hey, I'm Aaroh and you're on my website!</span> Read more about me:</p>
+    <p>Hey, I'm Aaroh and you're on my website! Read more about me:</p>
 
     <h2>Links</h2>
     <ul>
@@ -160,5 +156,15 @@
     </ul>
 
     <small>This page is a 99.5/100 on Google PageSpeed Insights</small>
+
+    <script>
+        window.onblur = function() {
+            document.title = "Don't leave me!";
+        }
+
+        window.onfocus = function() {
+            document.title = "Aaroh Mankad";
+        }
+    </script>
 </body>
 </html>
