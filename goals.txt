@@ -12,14 +12,6 @@ Email Mr. Yee
 				registration preference
 				more scholarship money
 				fueled by desire to become more prestigious
-		How great his classes were at preparing me for college CS
-			breadth
-				Unity
-				Web Development
-				Object-Oriented Java
-				Physics Engines
-				Graphics
-					especially amazing as it is one of the most difficult technical electives
 		Zybooks
 		Stress importance of solo work along with group work (which MVHS does a great job of)
 		What his courses could focus more on to prepare someone even further!
@@ -39,23 +31,26 @@ Clone labs from Zybooks
 	Comment out lab code
 	Share programming assignments
 
-Join UAV?
-	Ask Patrick
-		next meeting time
-		prerequisite knowledge
-
-Help Kyle with CS:GO
-	write slides/notes
-
-Post on Hacker News
-	Any and all resources about Natural Language Processing
-
-Learn how to deploy to AWS
-	What does this mean?
-	Any necessary code rewrites?
-	Cost?
+Take over CS:GO from Kyle
 
 Talk with Linard
 	Undergraduate Research positions
 		ideally in NLP
 		any sort of machine learning research would be awesome
+	Crash course on data structs that I haven't learnt in zybooks yet
+
+Payment for next term
+	Can I pay in cash?
+	deadline
+
+add ACM, UAV meetings to calendar for next quarter
+
+Work on more React.js
+
+Study more algos and data structs
+
+Talk with patrick about what classes to shadow with him
+
+apply for VP in ACM
+
+Start using calendar vs. notes/keep/goals.txt
