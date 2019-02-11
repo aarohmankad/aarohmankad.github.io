@@ -1,0 +1,20 @@
+{
+  "name": "aarohmankad.github.io",
+  "private": true,
+  "description": "Aaroh Mankad's personal website",
+  "version": "0.1.0",
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\""
+  },
+  "dependencies": {
+    "gatsby": "^2.0.118",
+    "react": "^16.8.0",
+    "react-dom": "^16.8.0",
+    "styled-components": "^4.1.3"
+  }
+}
