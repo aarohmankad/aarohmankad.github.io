@@ -6,10 +6,11 @@ import Page from '../components/Page';
 import ProfileImage from '../components/ProfileImage';
 import Section from '../components/Section';
 import Tagline from '../components/Tagline';
+import CompanyList from '../components/CompanyList';
 
 export default () => (
   <Page>
-    <Header>
+    <div style={{ width: '100%', marginTop: '100px' }}>
       <ProfileImage src={aaroh} alt="" />
       <Tagline>
         <h1>Hi, I'm Aaroh.</h1>
@@ -17,10 +18,11 @@ export default () => (
           I create value for companies, from startups to Fortune 500
         </small>
       </Tagline>
-    </Header>
+    </div>
 
     <div style={{ marginTop: '50px' }}>
       <p>COMPANIES I'VE CONTRIBUTED TO</p>
+      <CompanyList />
     </div>
   </Page>
 );
