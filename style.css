@@ -28,7 +28,8 @@ footer {
 footer a {
 	color: #63abff;
 }
-.profile {
+.profile,
+.cover-photo {
 	border-radius: 10px;
 }
 .cover-photo {
